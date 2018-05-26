@@ -8,7 +8,7 @@ module.exports.pitch = function (remainingRequest) {
   return `
     const {html} = require('lit-html');
     const content = require(${loaderUtils.stringifyRequest(this, '!!' + remainingRequest)});
-    const str = typeof result === 'string' ? result : result.toString();
+    const str = typeof content === 'string' ? content : content.toString();
     module.exports = html([str]);
   `;
 };

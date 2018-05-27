@@ -10,6 +10,6 @@ module.exports.pitch = function (remainingRequest) {
     const content = require(${loaderUtils.stringifyRequest(this, '!!' + remainingRequest)});
     const str = typeof content === 'string' ? content : content.toString();
     const templ = str.indexOf('<') === 0 ? str : \`<style>\${str}</style>\`;
-    module.exports = html([str]);
+    module.exports = html([templ]);
   `;
 };

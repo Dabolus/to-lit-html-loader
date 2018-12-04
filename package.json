@@ -10,6 +10,6 @@
     "loader-utils": "^1.1.0"
   },
   "peerDependencies": {
-    "lit-html": "^0.13.0"
+    "lit-html": "^0"
   }
 }

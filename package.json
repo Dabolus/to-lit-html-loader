@@ -1,6 +1,6 @@
 {
   "name": "to-lit-html-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Webpack loader that converts files to lit-html templates",
   "main": "to-lit-html-loader.js",
   "repository": "https://github.com/Dabolus/to-lit-html-loader.git",
